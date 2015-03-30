@@ -1,5 +1,13 @@
 # Gastos Abertos
 
+## O que é o Gastos Abertos?
+
+O projeto Gastos Abertos tem por objetivo facilitar a compreensão das pessoas a respeito dos gastos públicos no Brasil. O projeto trabalhara com tres orçamentos, respectivamente, a saber, o da cidade de Sao Paulo, do estado de Sao Paulo e, por fim, o federal.
+
+Queremos fornecer ferramentas para que a sociedade civil  organizada e os veículos de comunicação possam estimular os cidadãos a acompanhar e influenciar as tomadas de decisão sobre os gastos públicos. 
+
+O projeto é composto de duas frentes de trabalho: 1. uma plataforma tecnológica e 2. tutoriais, historias do orçamento e cursos.
+
 ## Quais eram os planos?
 
 Inicialmente discutimos na produção de um

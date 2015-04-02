@@ -119,3 +119,4 @@ Estamos construindo uma [colaboração](https://docs.google.com/document/d/11yDA
 
 ## Próximos passos
 
+1. Ferramenta genérica para gerar uma [API RESTful a partir de um CSV](https://lists.okfn.org/pipermail/gastosabertos-dev/2015-March/000169.html)

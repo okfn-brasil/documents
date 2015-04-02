@@ -113,8 +113,9 @@ série de trabalhos de desenvolvimento.
 
     https://github.com/okfn-brasil/gastos_abertos_website/
 
+### Colaboração (em construção) com o Open Knowledge Interncional (OpenSpending)
 
+Estamos construindo uma [colaboração](https://docs.google.com/document/d/11yDA0l78cNXw7aveANtLpdeGL4Be1c78AipYTAjjfWI/edit#) com a Open Knowledge Internacional, que está [redesenhando o Open Spending](http://labs.openspending.org/osep/01-approach-and-architecture-of-openspending.html). Ambos projetos, Gastos Abertos e Open Spending, estão construindo suas ferramentas a partir de [microserviços](https://en.wikipedia.org/wiki/Microservices).
 
-  
+## Próximos passos
 
-3. Direção atual.

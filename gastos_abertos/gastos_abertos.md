@@ -16,9 +16,9 @@ para a realização de diversos tipos de
 análises sobre os dados do orçamento de São Paulo.
 
 Estas ferramentas deveriam satisfazer uma
-série de pré-requisitos básicos que surgiram
+série de [pré-requisitos básicos](https://docs.google.com/document/d/1uy4pNy_1GLdMuN26C59Dg3a7LP754-JheC-_zmkRXTI/edit) que surgiram
 como interesse dos grupos que participaram
-do Workshop no final do ano passado. Pré-requisitos
+do [Workshop no final do ano passado](http://br.okfn.org/2014/09/25/gastos-abertos-primeira-reuniao-propoe-plataforma-ideal-de-visualizacao-orcamentaria/). Pré-requisitos
 como:
 
  a Facilidade no compartilhamento das 
@@ -57,11 +57,11 @@ desenvolvidas.
 ## O que foi alcançado?
 
 Iniciamos o desenvolvimento de uma visualização bem simples
-em cima dos dados da Receita, como proof of concept e para 
-definirmos e experimentarmos diferentes stacks tecnológicos 
+em cima dos dados da Receita, como prova de conceito e para 
+definirmos e experimentarmos diferentes stack tecnológicos 
 que iremos utilizar no projeto. 
 
-Num primeiro momento procuramos utilizar o OpenSpending como
+Num primeiro momento procuramos utilizar o [OpenSpending](http://openspending.org) como
 backend dos nosso dados mas encontramos alguns problemas:
 
  * Instabilidade no servidor oficial do Open Spending
@@ -70,10 +70,10 @@ backend dos nosso dados mas encontramos alguns problemas:
    que possuímos para os dados da Receita.
 
  * Futuro ainda incerto da plataforma que está passando por
-   uma reimplementação e mudança completa de sua arquitetura.
+   uma [reimplementação e mudança completa de sua arquitetura](http://labs.openspending.org/osep/01-approach-and-architecture-of-openspending.html).
 
 Com isso optamos por desenvolvermos nós mesmo uma solução
-utilizando o micro framework Flask na linguagem Python. 
+utilizando o micro framework [Flask](http://flask.pocoo.org/) na linguagem Python. 
 
 ### Dados da Receita
 
@@ -99,7 +99,7 @@ série de trabalhos de desenvolvimento.
 
 
  4. Gráfico de barras com Drilldown para os dados da Receita utilizando a biblioteca
-    em Javscript HighCharts.
+    em Javascript HighCharts.
 
  5. Criação de tabela sincronizada com o nível que está sendo visualizado no gráfico 
     de barras. A tabela foi construídua utilizando a biblioteca em Javascript Datatables.

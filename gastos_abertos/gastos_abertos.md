@@ -111,18 +111,67 @@ trabalhos de desenvolvimento.
 
     https://github.com/okfn-brasil/gastos_abertos_website/
 
-### Colaboração (em construção) com o Open Knowledge Interncional
-(OpenSpending)
 
-# Direção atual.  Estamos construindo uma
+## Direção atual.
+
+Após criarmos uma API para os dados da Receita, antes de iniciarmos
+o desenvolvimento de uma API para os dados do Planejamento e da Execução
+Orçamentária pensamos em como poderíamos ter um projeto mais genérico
+e de maior interesse para outros grupos. Com isso, ao invés de replicarmos
+o trabalho realizado na Receita com os dados de Planejamento/Execução
+pensamos no desenvolvimento de uma ferramenta que facilitará a criação
+de uma API a partir de um arquivo CSV.
+
+Além disso notamos a importância de pensarmos em histórias ou explorações
+mais pontuais dos dados que possuímos. Ao invés de focarmos apenas numa
+visualização genérica e no desenvolvimento de novas ferramentas, iremos
+pensar em casos concretos de uso dos dados para explorar questões pontuais.
+
+O resultado disso será:
+
+ * Um  ou mais artigos levantando algum tema (por exemplo, o planejamento
+   e execução das ciclovias na cidade de São Paulo).
+
+ * Para esses artigos serão criados visualizações dos dados que possuímos
+   já utilizando ferramentas existentes, customizando tais soluções se necesário.
+   Pense no caso do tema ciclovias, poderíamos utilizar o CartoDB para
+   criar um mapa de cores por subprefeitura do valor total gastos com ciclovias
+   nessa região, ou utilizar soluções como HighCharts para criar gráficos
+   comparando os diferentes custos em obras de mobilidade urbana. No processo
+   de criação dessas visualizações, poderá surgir a necessidade de desenvolvermos
+   uma nova ferramenta de visualização de dados que possivelmente poderá
+   ser utilizado por outros desenvolvedores ou jornalistas.
+
+ * Tutoriais/Textos para jornalistas ou não desenvolvedores de como foram realizadas
+   as visualizações ou análises dos dados.
+
+ * Tutoriais/Textos para desenvolvedores de qualquer tipo de trabalho mais
+   técnico que foi necessário para a produção e análise dos dados. Por exemplo
+   a produção de um texto explicando como foi realizado determinada limpeza
+   dos dados, raspagem de websites via Selenium, agregações ou totalizações
+   dos dados usando ferrmanetas como a biblioteca Pandas do Python, etc
+
+### Colaboração (em construção) com o Open Knowledge Interncional na contrução do novo OpenSpending
+
+Estamos construindo uma
 [colaboração](https://docs.google.com/document/d/11yDA0l78cNXw7aveANtLpdeGL4Be1c78AipYTAjjfWI/edit#)
-com a Open Knowledge Internacional, que está [redesenhando o Open
-Spending](http://labs.openspending.org/osep/01-approach-and-architecture-of-openspending.html).
+com a Open Knowledge Internacional, que está [redesenhando o Open Spending](http://labs.openspending.org/osep/01-approach-and-architecture-of-openspending.html).
 Ambos projetos, Gastos Abertos e Open Spending, estão construindo suas
 ferramentas a partir de
 [microserviços](https://en.wikipedia.org/wiki/Microservices).
 
-## Próximos passos
+## Resumo dos próximos passos
 
 1. Ferramenta genérica para gerar uma [API RESTful a partir de um
-   CSV](https://lists.okfn.org/pipermail/gastosabertos-dev/2015-March/000169.html)
+   CSV](https://lists.okfn.org/pipermail/gastosabertos-dev/2015-March/000169.html). Veja
+   também a [proposta](https://github.com/okfn-brasil/documents/blob/master/gastos_abertos/gastos_abertos_architecture.pdf) para arquitetura dessa ferramenta.
+
+2. Colaboração no desenvolvimento do [OpenSpending 2.0](https://github.com/okfn-brasil/documents/blob/master/gastos_abertos/gastos_abertos_architecture.pdf 
+
+3. Programa Javascript para realizar comparações de planejamento e execução orçamentária.
+
+4. Criação de histórias a partir dos dados que possuímos
+
+5. Criação de cursos voltado a desenvolvedores, jornalistas e atores do terceiro setor para
+   o uso eficiente de ferramentas para explorar os dados públicos orçamentários já disponibilizados
+   pela prefeitura de São Paulo.

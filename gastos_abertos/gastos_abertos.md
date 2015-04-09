@@ -4,8 +4,8 @@
 
 O projeto Gastos Abertos tem por objetivo facilitar a compreensão das pessoas a
 respeito dos gastos públicos no Brasil. O projeto trabalhará com três
-orçamentos, respectivamente, a saber, o da cidade de São Paulo, do estado de
-São Paulo e, por fim, o federal.
+orçamentos, nessa ordem: 1. cidade de São Paulo, 2. estado de São Paulo e 3.
+governo federal.
 
 Queremos fornecer ferramentas para que a sociedade civil organizada e os
 veículos de comunicação possam estimular os cidadãos a acompanhar e influenciar
@@ -20,9 +20,12 @@ Inicialmente discutimos na produção de um site onde existiriam ferramentas
 flexíveis para a realização de diversos tipos de análises sobre os dados do
 orçamento de São Paulo.
 
-Estas ferramentas deveriam satisfazer uma série de pré-requisitos básicos que
-surgiram como interesse dos grupos que participaram do Workshop no final do ano
-passado. Pré-requisitos como:
+Estas ferramentas deveriam satisfazer uma série de [pré-requisitos
+básicos](https://docs.google.com/document/d/1uy4pNy_1GLdMuN26C59Dg3a7LP754-JheC-_zmkRXTI/edit)
+que surgiram como interesse dos grupos que participaram do [Workshop no final
+do ano
+passado](http://br.okfn.org/2014/09/25/gastos-abertos-primeira-reuniao-propoe-plataforma-ideal-de-visualizacao-orcamentaria/).
+Pré-requisitos como:
 
  a Facilidade no compartilhamento das análises/visualizações. Por exemplo,
  pense no Google Maps, onde você pode navegar até um certo ponto, mudar uma
@@ -52,22 +55,24 @@ desenvolvidas.
 ## O que foi alcançado?
 
 Iniciamos o desenvolvimento de uma visualização bem simples em cima dos dados
-da Receita, como proof of concept e para definirmos e experimentarmos
-diferentes stacks tecnológicos que iremos utilizar no projeto. 
+da Receita, como prova de conceito e para definirmos e experimentarmos
+diferentes stack tecnológicos que iremos utilizar no projeto. 
 
-Num primeiro momento procuramos utilizar o OpenSpending como backend dos nosso
-dados mas encontramos alguns problemas:
+Num primeiro momento procuramos utilizar o
+[OpenSpending](http://openspending.org) como backend dos nosso dados mas
+encontramos alguns problemas:
 
  * Instabilidade no servidor oficial do Open Spending
 
  * Impossibilidade de utilizá-lo para os dados hierárquicos que possuímos para
    os dados da Receita.
 
- * Futuro ainda incerto da plataforma que está passando por uma reimplementação
-   e mudança completa de sua arquitetura.
+ * Futuro ainda incerto da plataforma que está passando por uma
+   [reimplementação e mudança completa de sua
+   arquitetura](http://labs.openspending.org/osep/01-approach-and-architecture-of-openspending.html).
 
 Com isso optamos por desenvolvermos nós mesmo uma solução utilizando o micro
-framework Flask na linguagem Python. 
+framework [Flask](http://flask.pocoo.org/) na linguagem Python. 
 
 ### Dados da Receita
 
@@ -91,7 +96,7 @@ trabalhos de desenvolvimento.
 
 
  4. Gráfico de barras com Drilldown para os dados da Receita utilizando a
-    biblioteca em Javscript HighCharts.
+    biblioteca em Javascript HighCharts.
 
  5. Criação de tabela sincronizada com o nível que está sendo visualizado no
     gráfico de barras. A tabela foi construídua utilizando a biblioteca em
@@ -106,5 +111,18 @@ trabalhos de desenvolvimento.
 
     https://github.com/okfn-brasil/gastos_abertos_website/
 
+### Colaboração (em construção) com o Open Knowledge Interncional
+(OpenSpending)
 
-# Direção atual.
+# Direção atual.  Estamos construindo uma
+[colaboração](https://docs.google.com/document/d/11yDA0l78cNXw7aveANtLpdeGL4Be1c78AipYTAjjfWI/edit#)
+com a Open Knowledge Internacional, que está [redesenhando o Open
+Spending](http://labs.openspending.org/osep/01-approach-and-architecture-of-openspending.html).
+Ambos projetos, Gastos Abertos e Open Spending, estão construindo suas
+ferramentas a partir de
+[microserviços](https://en.wikipedia.org/wiki/Microservices).
+
+## Próximos passos
+
+1. Ferramenta genérica para gerar uma [API RESTful a partir de um
+   CSV](https://lists.okfn.org/pipermail/gastosabertos-dev/2015-March/000169.html)

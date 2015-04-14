@@ -164,9 +164,9 @@ ferramentas a partir de
 
 1. Ferramenta genérica para gerar uma [API RESTful a partir de um
    CSV](https://lists.okfn.org/pipermail/gastosabertos-dev/2015-March/000169.html). Veja
-   também a [proposta](https://github.com/okfn-brasil/documents/blob/master/gastos_abertos/gastos_abertos_architecture.pdf) para arquitetura dessa ferramenta.
+   também a [proposta](https://github.com/okfn-brasil/documents/blob/master/gastos_abertos/gastos_abertos_architecture.md) para arquitetura dessa ferramenta.
 
-2. Colaboração no desenvolvimento do [OpenSpending 2.0](https://github.com/okfn-brasil/documents/blob/master/gastos_abertos/gastos_abertos_architecture.pdf 
+2. Colaboração no desenvolvimento do [OpenSpending 2.0](https://github.com/okfn-brasil/documents/blob/master/gastos_abertos/gastos_abertos_architecture.md) 
 
 3. Programa Javascript para realizar comparações de planejamento e execução orçamentária.
 

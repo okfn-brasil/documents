@@ -2,7 +2,7 @@
 
  A program that will infer the data types from a CSV files and try
  to find relations/hierarchy between the columns. First this
- program will have a CLI, but later we will develop a web frontend
+ program will have a command language interpreter (CLI), but later we will develop a web frontend
  for it.
 
    * Datetime columns

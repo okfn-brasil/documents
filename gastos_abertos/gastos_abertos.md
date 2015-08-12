@@ -2,7 +2,7 @@
 
 ## O que é o Gastos Abertos?
 
-O projeto Gastos Abertos tem por objetivo facilitar a compreensão das pessoas a
+O projeto Gastos Abertos tem como objetivo facilitar a compreensão das pessoas a
 respeito dos gastos públicos no Brasil. O projeto trabalhará com três
 orçamentos, nessa ordem: 1. cidade de São Paulo, 2. estado de São Paulo e 3.
 governo federal.
@@ -12,13 +12,13 @@ veículos de comunicação possam estimular os cidadãos a acompanhar e influenc
 as tomadas de decisão sobre os gastos públicos. 
 
 O projeto é composto de duas frentes de trabalho: 1. uma plataforma tecnológica
-e 2. tutoriais, historias do orçamento e cursos.
+e 2. tutoriais, histórias do orçamento e cursos.
 
-## Quais eram os planos?
+## Quais eram os planos inicialmente?
 
-Inicialmente discutimos na produção de um site onde existiriam ferramentas
+Inicialmente discutimos sobre a produção de um site onde existiriam ferramentas
 flexíveis para a realização de diversos tipos de análises sobre os dados do
-orçamento de São Paulo.
+orçamento da cidade de São Paulo.
 
 Estas ferramentas deveriam satisfazer uma série de [pré-requisitos
 básicos](https://docs.google.com/document/d/1uy4pNy_1GLdMuN26C59Dg3a7LP754-JheC-_zmkRXTI/edit)
@@ -43,8 +43,8 @@ determinadas ferramentas de visualização, que serão levadas em consideração
 desenvolvimento de cada ferramenta individual. Por exemplo, existiu uma forte
 demanda para possuir uma grande granularidade nas informações sobre Execução
 Orçamentária, ao invés de possuirem apenas totalizações. Alguns dos nossos
-dados permitem isso, outros será necessário todo um trabalho extra de
-cruzamento e análise nem sempre cabível de automatização.
+dados permitem isso, com outros será necessário todo um trabalho extra de
+cruzamento e análise, nem sempre cabível de automatização.
 
 Junto com tais ferramentas existirá no site artigos mais técnicos descrevendo o
 processo criativo que estamos realizando, artigos como tutoriais para
@@ -56,10 +56,10 @@ desenvolvidas.
 
 Iniciamos o desenvolvimento de uma visualização bem simples em cima dos dados
 da Receita, como prova de conceito e para definirmos e experimentarmos
-diferentes stack tecnológicos que iremos utilizar no projeto. 
+diferentes stacks tecnológicos que iremos utilizar no projeto. 
 
 Num primeiro momento procuramos utilizar o
-[OpenSpending](http://openspending.org) como backend dos nosso dados mas
+[OpenSpending](http://openspending.org) como backend dos nosso dados, mas
 encontramos alguns problemas:
 
  * Instabilidade no servidor oficial do Open Spending
@@ -116,11 +116,11 @@ trabalhos de desenvolvimento.
 
 Após criarmos uma API para os dados da Receita, antes de iniciarmos
 o desenvolvimento de uma API para os dados do Planejamento e da Execução
-Orçamentária pensamos em como poderíamos ter um projeto mais genérico
+Orçamentária, pensamos em como poderíamos ter um projeto mais genérico
 e de maior interesse para outros grupos. Com isso, ao invés de replicarmos
-o trabalho realizado na Receita com os dados de Planejamento/Execução
+o trabalho realizado na Receita com os dados de Planejamento/Execução,
 pensamos no desenvolvimento de uma ferramenta que facilitará a criação
-de uma API a partir de um arquivo CSV.
+de uma API a partir de um arquivo CSV (uma espécie de Magic API ; )
 
 Além disso notamos a importância de pensarmos em histórias ou explorações
 mais pontuais dos dados que possuímos. Ao invés de focarmos apenas numa
